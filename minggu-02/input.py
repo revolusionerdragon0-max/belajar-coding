@@ -1,0 +1,5 @@
+nama = input("Nama: ")
+umur = int(input("Umur: "))
+print(nama)
+print(type(umur))
+print(umur + 5)

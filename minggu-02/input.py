@@ -1,5 +1,8 @@
-nama = input("Nama: ")
 umur = int(input("Umur: "))
-print(nama)
-print(type(umur))
-print(umur + 5)
+
+if umur >= 17:
+    print("Dewasa")
+elif umur >= 60:
+    print("Lansia")
+else:
+    print("Anak-anak")
